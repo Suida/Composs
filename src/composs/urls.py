@@ -55,5 +55,5 @@ urlpatterns += [
 
 urlpatterns += [
     path('admin/', admin.site.urls),
-    path('article/', include('article.urls')),
+    path('api/', include('api.urls')),
 ]

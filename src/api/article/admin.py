@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from article.models import Article
+from api.article.models import Article
 
 
 admin.site.register(Article)

@@ -1,6 +1,6 @@
 from rest_framework.routers import DefaultRouter
 
-from article.views import ArticleViewSet
+from api.article.views import ArticleViewSet
 
 
 router = DefaultRouter()

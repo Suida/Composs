@@ -10,8 +10,8 @@ from rest_framework.generics import (
     DestroyAPIView,
 )
 
-from article.models import Article
-from article.serializers import ArticleSerializer
+from api.article.models import Article
+from api.article.serializers import ArticleSerializer
 
 
 class ArticleViewSet(ModelViewSet):

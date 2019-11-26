@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     # Customized
-    'article.apps.ArticleConfig'
+    'api',
+    'api.account',
+    'api.article',
 ]
 
 MIDDLEWARE = [
