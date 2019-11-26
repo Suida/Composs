@@ -29,9 +29,9 @@ urlpatterns = list()
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Snippets API",
-      default_version='v1',
-      description="Test description",
+      title="ComPoss API",
+      default_version='v0',
+      description="Hugh's Blog",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="suidar@foxmail.com"),
       license=openapi.License(name="BSD License"),

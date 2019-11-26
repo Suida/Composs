@@ -4,7 +4,7 @@ from article.views import ArticleViewSet
 
 
 router = DefaultRouter()
-router.register('article', ArticleViewSet)
+router.register('', ArticleViewSet)
 
 
 urlpatterns = router.urls
